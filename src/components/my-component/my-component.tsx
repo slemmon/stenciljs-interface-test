@@ -1,11 +1,11 @@
 import { Component, Prop, h } from '@stencil/core';
 import { format } from '../../utils/utils';
-import Username from '../../types/username';
+import { Username } from '../../types/username';
 
 @Component({
   tag: 'my-component',
   styleUrl: 'my-component.css',
-  shadow: true,
+  shadow: true
 })
 export class MyComponent {
   /**

@@ -6,7 +6,9 @@
 
 
 import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
-
+import {
+  Username,
+} from './types/username';
 
 export namespace Components {
   interface MyComponent {
